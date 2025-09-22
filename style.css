@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+/* ----------------------------------------------------header start------------------------------------------------ */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #00000028;
+    padding: 25px;
+}
+header .logo{
+    font-size: 38px;
+    font-weight: 500;
+}
+header a{
+    color: #000000;
+}
+header ul li{
+    display: inline;
+    padding: 0px 20px;
+}
+header ul li a{
+    font-size: 18px;
+} 
+header .line{
+    text-decoration:  2px underline ;
+    text-underline-offset: 40px;
+} 
+/* ----------------------------------------------------header end------------------------------------------------ */
+
+/* ----------------------------------------------------banner start------------------------------------------------ */
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+.banner img{
+    width: 854px;
+    height: 533px;
+    margin-bottom: 30px;
+}
+.banner h2{
+    font-size: 54px;
+    width: 700px;
+    text-align: center;
+    font-weight: 700;
+}
+.banner p{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    word-spacing: 10px;
+    line-height: 35px;
+}
+#boder{
+    border-top: 2px solid #000000 ;
+    width: 580px;
+    margin: auto;
+    margin-top: -45px;
+}
+#heading-2{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 48px;
+    font-weight: 700;
+}
+/* ----------------------------------------------------banner end------------------------------------------------ */
+
+/* ----------------------------------------------------article limks section start------------------------------------------------ */
+.rows{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.rows span{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.rows img{
+    width: 300px;
+    height: 170;
+}
+.rows h2{
+    margin-top: 15px;
+    text-align: center;
+    width: 260px;
+    height: 75px;
+    font-size: 22px;
+   font-weight: 600; 
+}
+/* ----------------------------------------------------article limks section end--------------------------------------------------- */
+
+/* ----------------------------------------------------second page start--------------------------------------------------- */
+.banner .img-banner{
+    margin-top: 20px;
+    width: 100%;
+}
+.blog-writer{
+    max-width: 570px;
+    margin: auto;
+    margin-top: 40px;
+}
+.blog-writer div {
+    
+    display: flex;
+    justify-content: space-between;
+}
+.blog-writer span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-writer h3{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 5%;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.blog-writer span i {
+    padding: 10px 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    font-size: 20px;
+}
+.blog-writer p{
+    margin-left: 70px ;
+    margin-top: -10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.blog-writer .blog{
+    margin: auto;
+    margin-top: 40px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%; 
+}
+.blog-writer h2{
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 160%;
+}
+.blog-image{
+    display: block;
+    width: 750px;
+    height: 500px;
+    margin: auto;
+}
+.blog-img-captiom{
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    width: 410px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 16px;
+    /* line-height: 140%; */
+}
+.blog-writer h4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.blog-writer ul{
+    margin: auto;
+    max-width: 500px;
+}
+.blog-writer ul li{
+    list-style: disc;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 16px 0;
+}
+.blog-writer .share i{
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px 30px;
+}
+.blog-writer #tag{
+    margin: auto;
+    margin-top: 40px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 3%;
+    
+}
+.blog-writer #tag span{
+    display: inline;
+    text-decoration: underline;
+}
+.blog-writer #boder{
+    border-top: 1px solid #0000004d ;
+    width: 580px;
+    margin: auto;
+    margin-top: 35px;
+}
+.container{
+    max-width: 570px;
+    margin: auto;
+    margin-top: 40px;
+
+}
+.writer-detail{
+    
+    width: 500px;
+    width: 500;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -60px;
+    margin-left: 80px;
+}
+.writer-detail span{
+    display: inline;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 5%;
+}
+#line{
+    margin-top: 100px;
+    border-bottom: 2px solid #000000;
+}
+.eyes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    margin: -20px auto;
+}
+#oval-1{
+    margin-top: 2px;
+    height: 40px;
+    width: 60px;
+    background-color: #ffffff;
+    border: 1.9px solid #000000;
+    transform: rotate(90deg);
+    border-radius: 50%;
+}
+#oval-2{
+    margin-left: -27px;
+    height: 40px;
+    width: 60px;
+    border: 1.9px solid #000000;
+    background-color: #ffffff;
+    transform: rotate(90deg);
+    border-radius: 50%;
+}
+.oval{
+    margin-top: 7px;
+    margin-left: 32px;
+    height: 15px;
+    width: 20px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+#heading-3{
+    margin-top: 60px;
+    font-weight: 700;
+    font-size: 44px;
+    text-align: center;
+}
+.sign-up{
+    max-width: 600px;
+    height: 300;
+    margin: auto;
+    margin-top: 150px;
+    border: 1px solid #000000;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.sign-up h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+}
+.sign-up p{
+    margin: auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 470px;
+}
+.sign-up span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 470px;
+    margin: auto;
+}
+.sign-up span #email{
+    width: 80%;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    padding: 10px 20px;
+}
+.sign-up span input:placeholder-shown{
+    color: aqua;
+    font-size: 20px;
+    font-weight: 400;
+}
+.sign-up span #btn{
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 12px 20px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+    border: none;
+}
+.sign-up span #btn:hover{
+    box-shadow: 0 10px 5px rgba(0,0,0,0.2);
+    background-color: #fff;
+    color: #000000;
+}
+/* ----------------------------------------------------second page end--------------------------------------------------- */
+
+/* -------------------------------------------------------------foooter start------------------------------------------------------ */
+footer{
+    margin-top: 120px;
+    background-color: #000000;
+    color: whitesmoke;
+    height: 450px;
+}
+footer div p{
+    /* display: flex; */
+    /* gap: 15px; */
+    text-align: center;
+    padding-top: 15px;
+    font-size: 19px;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+}
+footer div p span{
+    padding: 0px 7px ;
+}
+footer div .bold{
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+}
+footer div .logo{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 32px;
+    font-weight: 500;
+}
+footer div .detail{
+    width: 500px;
+    height: 80px;
+    font-size: 13px;
+    line-height: 140%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+footer .link{
+    margin: 35px 0px;
+    text-align: center;
+}
+footer .link a{
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0 20px;
+    color: whitesmoke;
+}
+footer .link a:hover{
+    text-decoration: underline;
+    /* color: whitesmoke; */
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+/* -----------------------------------------------------------foooter end------------------------------------------------------------*/
